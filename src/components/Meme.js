@@ -70,7 +70,7 @@ export default function Meme() {
                 <img 
                     className="meme--image" 
                     src={meme.randomImage}
-                    alt="Meme Image">
+                    alt="Meme">
                 </img>
                 <h2 className="meme--imageText top">{meme.topText}</h2>
                 <h2 className="meme--imageText bottom">{meme.bottomText}</h2>
